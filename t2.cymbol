@@ -1,0 +1,11 @@
+int max(int a, int b) {
+    if a == 0 then return b;
+    if b == 0 then return a;
+    if a == b then return a;
+    return a + b;
+}
+
+int absoluto(int x) {
+    if x == 0 then return 0;
+    return -x;
+}
