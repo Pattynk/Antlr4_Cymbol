@@ -1,0 +1,21 @@
+// Cymbol test - Archivo 3: Avanzado
+// Prueba: recursion, llamadas anidadas, asignacion, expr como stat
+
+int g = 9;
+
+int fact(int x) {
+    if x == 0 then return 1;
+    return x * fact(x-1);
+}
+
+int fib(int n) {
+    if n == 0 then return 0;
+    if n == 1 then return 1;
+    return fib(n-1) + fib(n-2);
+}
+
+void power(int base, int exp) {
+    int resultado = fact(base);
+    resultado = resultado * fib(exp);
+    resultado;
+}
